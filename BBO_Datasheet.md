@@ -8,7 +8,8 @@ The queries were generated using Bayesian optimization with an ensemble of model
 - GaussianProcessRegressor surrogate model with Upper Confidence Bound acquisition function
 - GaussianProcessRegressor surrogate model with Expected Improvement acquisition function
 - Sequential Model-based Algorithm Configuration (SMAC)
-- Bayesian Optimization in PyTorch (BoTorch)  
+- Bayesian Optimization in PyTorch (BoTorch)
+
 I developed the models in that order, with the GaussianProcessRegressor/UCB model being the first, sequentially adding the rest of the models. 
 ## Preprocessing
 For the first four weeks, I didn't apply any preprocessing other than normalize_y=True in the GaussianProcessRegressor. Starting in week five, I applied a custom non-linear transformation to the output of Function 1 due to the extreme magnitude differences in the raw outputs. Starting in week eight, I applied the Yeo-Johnson PowerTransformer to the outputs for Functions 2-8 to reduce heteroscedasticity; this was found to be beneficial by HEBO, the winners of the 2020 NeurIPS black-box optimization challenge.
