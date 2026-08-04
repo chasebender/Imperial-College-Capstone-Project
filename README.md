@@ -1,5 +1,5 @@
 # Imperial College Capstone Project
 
-# Project Overview
+## Project Overview
 
-# The Imperial College capstone project is a black-box optimization challenge. There are eight unknown functions and our task is to find the global maximum for each function over the course of thirteen weeks, with only one query allowed per week. The functions range from two dimensions to eight dimensions and we're given between 10 and 40 initial input and output combinations, depending on the function. The inputs range in value from [0.000000, 0.999999] while the outputs have no bounds.
+The Imperial College capstone project is a black-box optimization challenge. There are eight unknown functions and our task is to find the global maximum for each function over the course of thirteen weeks, with only one query allowed per week. The functions range from two dimensions to eight dimensions and we're given between 10 and 40 initial input and output combinations, depending on the function. The inputs range in value from [0.000000, 0.999999] while the outputs have no bounds.
