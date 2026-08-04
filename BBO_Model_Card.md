@@ -15,4 +15,31 @@
 - Cheap experimentation
 - Discrete observations
 - Batch acquisition functions where q>1
-
+## Methodology
+- Update most recent week's inputs and outputs in Pandas dataframes
+- Update four models for each function:
+  - GaussianProcessRegressor using Upper Confidence Bound
+  - GaussianProcessRegressor using Expected Improvement
+  - Sequential Model-based Algorithm Configuration
+  - BoTorch
+- Compare results from each model
+- Select inputs based on criteria specific to that week
+## Evolution
+I have gradually added models as time has progressed. To maintain diversity of the sampling approach, the first strategy is to give each model at least one week of inputs. If each model has forecasted at least one week of inputs, I will then choose the inputs based on how exploratory or exploitative I want to be in a particular week. Additionally, I have tweaked the models over time to add robustness and optimize hyperparameters.
+## Performance
+### Model Accuracy
+- Kernel length scales
+- Model standard deviations
+- Model log marginal likelihood values
+### Output Accuracy
+- Leave-one-out cross-validation
+- Expected output
+- Actual output relative to expected
+### Summary
+There are still four weeks left in this project, so tbd, but so far, I have found new maxima for every function.
+## Assumptions
+The main assumption is that I am able to model these functions with either deterministic models or probabilistic regressions.
+## Limitations
+If I can not model these functions with either deterministic models or probabilistic regressions. Also, if my forecasts of these models and regressions is wildly off from the true ones given the sparse dataset.
+## Ethical Considerations
+To the best of my knowledge, all of these numbers are fabricated and are not based on anything in the real world. However, transparency is important so that others don't unknowingly misuse the code and/or concepts.
