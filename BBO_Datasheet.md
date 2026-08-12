@@ -9,6 +9,7 @@ The queries were generated using Bayesian optimization with an ensemble of model
 - GaussianProcessRegressor surrogate model with Expected Improvement acquisition function
 - Sequential Model-based Algorithm Configuration (SMAC)
 - Bayesian Optimization in PyTorch (BoTorch)
+- Differential Evolution by SciPy
 
 I developed the models in that order, with the GaussianProcessRegressor/UCB model being the first, sequentially adding the rest of the models. 
 ## Preprocessing
