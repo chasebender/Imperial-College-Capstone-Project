@@ -21,7 +21,7 @@
   - GaussianProcessRegressor using Upper Confidence Bound
   - GaussianProcessRegressor using Expected Improvement
   - Sequential Model-based Algorithm Configuration
-  - BoTorch
+  - Bayesian Optimization in PyTorch
   - Differential Evolution
 - Compare results from each model
 - Select inputs based on criteria specific to that week
