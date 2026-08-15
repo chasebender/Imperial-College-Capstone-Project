@@ -17,11 +17,12 @@
 - Batch acquisition functions where q>1
 ## Methodology
 - Update most recent week's inputs and outputs in Pandas dataframes
-- Update four models for each function:
+- Update five models for each function:
   - GaussianProcessRegressor using Upper Confidence Bound
   - GaussianProcessRegressor using Expected Improvement
   - Sequential Model-based Algorithm Configuration
   - BoTorch
+  - Differential Evolution
 - Compare results from each model
 - Select inputs based on criteria specific to that week
 ## Evolution
