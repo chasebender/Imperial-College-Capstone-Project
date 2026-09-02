@@ -37,10 +37,10 @@ I have gradually added models as time has progressed. To maintain diversity of t
 - Expected output
 - Actual output relative to expected
 ### Summary
-There are still four weeks left in this project, so tbd, but so far, I have found new maxima for every function.
+Over the thirteen weeks, I found new maxima for every function. This was a fun exercise that helped me learn about Bayesian optimization and improved my Python skills.
 ## Assumptions
-The main assumption is that I am able to model these functions with either deterministic models or probabilistic regressions.
+The main assumption was that I was able to model these functions with either deterministic models or probabilistic regressions.
 ## Limitations
-If I can not model these functions with either deterministic models or probabilistic regressions. Also, if my forecasts of these models and regressions is wildly off from the true ones given the sparse dataset.
+If I could not model these functions with either deterministic models or probabilistic regressions. Also, if my forecasts of these models and regressions was wildly off from the true ones given the sparse dataset.
 ## Ethical Considerations
 To the best of my knowledge, all of these numbers are fabricated and are not based on anything in the real world. However, transparency is important so that others don't unknowingly misuse the code and/or concepts.
